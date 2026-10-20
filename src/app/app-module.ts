@@ -7,12 +7,14 @@ import { BrowserModule } from '@angular/platform-browser'; // * Enables browser-
 import { App } from './app'; // * Importing the root component
 import { Navbar } from './components/navbar/navbar';
 import { HeaderApp } from './components/header-app/header';
+import { About } from './components/about/about';
 
 @NgModule({
   declarations: [
     App, // * Declaring components, directives, and pipes that belong to this module
     Navbar,
     HeaderApp,
+    About,
   ],
   imports: [
     BrowserModule, // * Importing browser-related functionality

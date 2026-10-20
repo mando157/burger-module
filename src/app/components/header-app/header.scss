@@ -1,0 +1,48 @@
+header {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        >img {
+            animation: hoop 1s infinite alternate ease-in-out;
+        }
+
+        h1 {
+            font-size: clamp(18px, 6vw, 50px);
+            margin: 15px 0px;
+            text-shadow: 0px 0px 15px #fff;
+
+            span {
+                animation: opacity .5s infinite alternate ease-in-out;
+            }
+        }
+
+    }
+}
+
+@keyframes hoop {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
