@@ -37,3 +37,12 @@ body {
                 var(--main-color));
     }
 }
+
+.title {
+    h2 {
+        color: var(--main-color);
+        font-size: clamp(40px, 6vw, 55px);
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+}

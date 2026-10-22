@@ -1,0 +1,13 @@
+.product{
+    .content{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+                width: 25%;
+                min-width: 100px;
+            }
+        }
+    }
+}

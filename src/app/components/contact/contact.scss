@@ -1,0 +1,24 @@
+.content {
+    max-width: 400px;
+    min-width: 280px;
+    margin: auto;
+
+    form {
+        button {
+            background-color: var(--main-color);
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        span {
+            font-weight: 600;
+            color: var(--main-color);
+        }
+
+
+        textarea{
+            resize: none;
+            height: 130px;
+        }
+    }
+}
